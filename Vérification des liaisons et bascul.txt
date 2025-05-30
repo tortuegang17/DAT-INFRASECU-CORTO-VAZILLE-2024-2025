@@ -1,0 +1,4 @@
+Vérification des liaisons et bascule
+show high-availability state
+show interface ethernet1/1
+show routing route

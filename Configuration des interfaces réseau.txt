@@ -1,0 +1,7 @@
+Configuration des interfaces réseau
+set network interface ethernet ethernet1/1 layer3
+set network interface ethernet ethernet1/1 ip 10.1.1.1/30
+set network interface ethernet ethernet1/2 layer3
+set network interface ethernet ethernet1/2 ip 10.1.1.5/30
+set network virtual-router default interface ethernet1/1 ethernet1/2
+commit

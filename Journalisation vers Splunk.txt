@@ -1,0 +1,5 @@
+Journalisation vers Splunk
+set logging-settings syslog LOG-SPLUNK server 10.1.110.10 transport udp port 514
+set log-settings system syslog LOG-SPLUNK
+set log-settings threat syslog LOG-SPLUNK
+commit

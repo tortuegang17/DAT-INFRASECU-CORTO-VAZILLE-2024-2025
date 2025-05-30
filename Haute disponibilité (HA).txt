@@ -1,0 +1,8 @@
+Haute disponibilité (HA)
+set deviceconfig high-availability enabled yes
+set deviceconfig high-availability group-id 1
+set deviceconfig high-availability mode active-passive
+set deviceconfig high-availability peer-ip 10.1.10.11
+set deviceconfig high-availability local-ip 10.1.10.10
+set deviceconfig high-availability heartbeat-interface ethernet1/3
+commit

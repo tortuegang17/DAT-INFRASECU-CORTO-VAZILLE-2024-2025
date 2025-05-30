@@ -1,0 +1,3 @@
+Sauvegarde config
+scp export configuration to user@backup-server:/paloalto/config.xml
+

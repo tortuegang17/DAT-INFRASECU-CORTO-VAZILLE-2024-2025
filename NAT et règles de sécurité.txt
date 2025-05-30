@@ -1,0 +1,4 @@
+NAT et règles de sécurité 
+set rulebase nat rules NAT-OUTBOUND source-zone Trust destination-zone Untrust to interface ethernet1/2 source 10.1.20.0/24 destination any service any translated-address-type dynamic-ip-and-port translated-address interface-address
+set rulebase security rules ALLOW-USERS from Trust to Untrust source 10.1.20.0/24 destination any application any service application-default action allow
+commit
